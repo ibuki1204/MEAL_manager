@@ -1,0 +1,18 @@
+python -m pip install --upgrade pip
+
+python -m pip install django==4.2.2
+
+pip list
+
+django-admin startproject django_app
+
+python manage.py runserver
+
+cd django_app または　Vscodeでdjango_appフォルダを開く
+
+python manage.py startapp hello
+
+http://127.0.0.1:8000/hello/
+http://localhost:8000/hello/
+
+SESSION_ENGINE = 'django.contrib.sessions.backends.cache'
